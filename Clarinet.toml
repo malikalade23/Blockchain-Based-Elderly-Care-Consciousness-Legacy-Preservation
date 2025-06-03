@@ -1,0 +1,39 @@
+[project]
+name = 'Blockchain-Based-Elderly-Care-Consciousness-Legacy-Preservation'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.care-provider-verification]
+path = 'contracts/care-provider-verification.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.cultural-continuity]
+path = 'contracts/cultural-continuity.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.family-connection]
+path = 'contracts/family-connection.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.legacy-documentation]
+path = 'contracts/legacy-documentation.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.wisdom-transmission]
+path = 'contracts/wisdom-transmission.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
